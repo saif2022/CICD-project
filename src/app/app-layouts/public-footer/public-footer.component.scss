@@ -1,0 +1,47 @@
+/* =========================
+  CSS CONTRIBUTED BY BULBUL
+ =========================== */
+
+// Footer
+.izn-footer h6 {
+  margin: 0 !important;
+  margin-bottom: 10px !important;
+}
+
+.bg-darken .list-social:not(.text-white-70) i, .bg-darken .list-social:not(.text-white-70) img {
+  filter: brightness(0) invert(1);
+}
+
+.border-hover:focus, .border-hover {
+  transition: all 0.3s linear;
+  border: 1px solid transparent;
+}
+
+.border-hover:focus, .border-hover:hover {
+  border: 1px solid #FDC25E;
+}
+
+.footer-menu ul li a {
+  line-height: 20px;
+  font-size: 14px;
+  display: block;
+  height: 20px;
+  transition: all 0.3s linear;
+}
+
+.footer-menu ul li a:hover {
+  font-size: 20px;
+}
+
+footer.izn-footer form button {
+  background-color: #FDC25E;
+  color: #000;
+}
+
+.bottom-menu  ul li a {
+  transition: all 0.3s linear;
+}
+
+.bottom-menu ul li a:hover {
+  transform: scale(1.2);
+}

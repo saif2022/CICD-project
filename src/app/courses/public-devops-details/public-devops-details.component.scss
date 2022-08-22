@@ -1,0 +1,33 @@
+/* =========================
+  CSS CONTRIBUTED BY BULBUL
+=========================== */
+.page-header.position-relative.pt-8.pt-xl-11 {
+  margin-top: -190px;
+}
+
+// .container.d-none.d-xl-block.bg-dark {
+//   --bs-bg-opacity: 0 !important;
+//   background-color: transparent !important;
+// }
+
+.page-header.position-relative.pt-8.pt-xl-11 img {
+  height: 620px;
+}
+
+.page-header-cont.container {
+  padding-top: 154px;
+}
+
+.course-single-white {
+  padding-top: 49px;
+}
+
+
+
+.sidebar-filter.col-lg-4 {
+  z-index: 2;
+}
+
+.overlay-custom-left::before {
+  background: linear-gradient(0deg, rgb(23 43 119 / 82%), rgb(25 41 64 / 60%)), linear-gradient(157deg, #111a30 17.76%, rgba(255, 255, 255, 0) 200%);
+}

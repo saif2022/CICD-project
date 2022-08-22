@@ -1,0 +1,604 @@
+/* You can add global styles to this file, and also import other style files */
+
+// @import "./assets/fonts/fontawesome/fontawesome.css";
+// @import "./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css";
+// @import "./assets/libs/aos/dist/aos.css";
+// @import "./assets/libs/choices.js/public/assets/styles/choices.min.css";
+// @import "./assets/libs/flickity-fade/flickity-fade.css";
+// @import "./assets/libs/flickity/dist/flickity.min.css";
+// @import "./assets/libs/highlightjs/styles/vs2015.css";
+// @import "./assets/libs/jarallax/dist/jarallax.css";
+// @import "./assets/libs/quill/dist/quill.core.css";
+// @import "./assets/css/theme.min.css";
+
+/* =========================
+  CSS CONTRIBUTED BY BULBUL
+=========================== */
+// Fix page header image, overlay
+.page-header.position-relative.pt-8.pt-xl-11 {
+  margin-top: -190px;
+}
+
+.page-header.position-relative.pt-8.pt-xl-11 img {
+  height: 620px;
+}
+
+.page-header-cont.container {
+  padding-top: 154px;
+}
+
+.overlay-custom-left::before {
+  background: linear-gradient(0deg, rgb(23 43 119 / 82%), rgb(25 41 64 / 60%)), linear-gradient(157deg, #111a30 17.76%, rgba(255, 255, 255, 0) 200%);
+}
+
+// To down the content of pages
+.control-bar.container {
+  margin-top: 250px;
+}
+
+// To move tuition and Finance page little down
+.tution-finance-page .pricing.container {
+  margin-top: 270px;
+}
+
+// To move affiliate page little down
+.affiliate-page .content-start.container {
+  margin-top: 230px;
+}
+
+// To move course details little up
+.course-meta.container {
+  margin-top: -40px;
+}
+
+// Tik icons in courses pages
+.list-style-v2 li::before,
+.list-style-v1 li::after {
+  background-color: #FFC78B ;
+}
+
+// To remove thin line before footer
+footer .shape.shape-blur.mb-n-1.shape-top.shape-flip-both.svg-shim.text-white.mt-n-1 {
+  margin-top: -2px;
+}
+
+// Jahidul Profile Card in course pages
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+figure.snip0057 {
+  font-family: "Raleway", Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  min-width: 380px;
+  width: 100%;
+  background: #ffffff;
+  color: #000000;
+  box-shadow: 0px 0px 21px #0000006b !important;
+  margin-bottom: 40px;
+  border-radius: 0.25rem !important;
+}
+figure.snip0057 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+figure.snip0057 .image {
+  width: 28%;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transform: skewX(-15deg);
+  transform: skewX(-15deg);
+}
+figure.snip0057 .image img {
+  position: relative;
+  display: block;
+  left: -15%;
+  z-index: 1;
+  -webkit-transform: skew(15deg);
+  transform: skew(15deg);
+  height: 300px;
+}
+figure.snip0057:before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 26%;
+  background: rgba(0, 0, 0, 0.2);
+  -webkit-transform: skewX(-17deg);
+  transform: skewX(-17deg);
+  -webkit-box-shadow: 15px 0px 25px rgba(0, 0, 0, 0.7);
+  box-shadow: 15px 0px 25px rgba(0, 0, 0, 0.7);
+  left: 8px;
+}
+figure.snip0057 figcaption {
+  padding: 20px 30px 20px 20px;
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  width: 50%;
+}
+figure.snip0057 figcaption h2,
+figure.snip0057 figcaption p {
+  margin: 0;
+  text-align: right;
+  padding: 10px 0;
+  width: 100%;
+}
+figure.snip0057 figcaption h2 {
+  font-size: 1.3em;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+figure.snip0057 figcaption h2 span {
+  font-weight: 800;
+}
+figure.snip0057 figcaption p {
+  font-size: 0.9em;
+  opacity: 0.8;
+}
+figure.snip0057 figcaption .icons {
+  width: 100%;
+  text-align: right;
+}
+figure.snip0057 figcaption .icons i {
+  font-size: 26px;
+  padding: 5px;
+  top: 50%;
+  color: #000000;
+  opacity: 0;
+}
+figure.snip0057 figcaption a {
+  opacity: 0.3;
+}
+figure.snip0057 figcaption a:hover {
+  opacity: 0.8;
+}
+figure.snip0057 .position {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  padding: 15px 30px;
+  font-size: 0.9em;
+  opacity: 1;
+  // font-style: italic;
+  color: #ffffff;
+  background: #000000;
+}
+figure.snip0057.blue .position {
+  background: #20638f;
+}
+figure.snip0057.red .position {
+  background: #26336e;
+  color: #FFC78B;
+}
+figure.snip0057.yellow .position {
+  background: #bf6516;
+}
+figure.snip0057:hover figcaption,
+figure.snip0057.hover figcaption {
+  bottom: 40px;
+}
+figure.snip0057:hover .icons i,
+figure.snip0057.hover .icons i {
+  opacity: 1;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+figure.snip0057:hover:before,
+figure.snip0057.hover:before {
+  -webkit-animation: shadow 0.6s ease-in-out;
+  animation: shadow 0.6s ease-in-out;
+}
+@-webkit-keyframes shadow {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: -5px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+@keyframes shadow {
+  0% {
+    left: 0px;
+  }
+  50% {
+    left: -5px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+// Jahidul Profile Card css
+.profile-card {
+  background-color: #1a265c;
+}
+
+.profile-card-text {
+  padding: 41px 20px 0;
+}
+
+.event-profile-card .profile-card-text {
+  padding: 60px 20px 0;
+}
+
+.profile-card .profile-card-text .quote-content {
+  margin-bottom: 25px;
+  position: relative;
+}
+
+
+.profile-card .profile-card-text .fa-quote-left {
+  font-size: 15px;
+  color: #fff;
+  position: absolute;
+  left: -5px;
+  top: 0;
+}
+
+.profile-card .profile-card-text .fa-quote-right {
+  font-size: 15px;
+  color: #fff;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+
+.profile-card .profile-card-text h3 {
+  color: #fff !important;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 22px !important;
+}
+
+.profile-card .profile-card-text h5 {
+  color: #fff !important;
+  margin-bottom: 5px;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 300
+}
+
+.profile-card .profile-card-text h5 span {
+  font-weight: 800;
+}
+
+.profile-card .profile-card-text h6 {
+  color: #fff !important;
+  margin-bottom: 5px;
+}
+
+.profile-card .profile-card-text button {
+  color: #26336e;
+  background-color: #fdc25e;
+  margin-top: 22px;
+}
+
+.profile-card .profile-card-image {
+  height: 100%;
+}
+.profile-card .profile-card-image div {
+  margin-top: -20px
+}
+
+// Share Button CSS
+// @import '~ngx-sharebuttons/themes/material/material-dark-theme';
+// @import '~ngx-sharebuttons/themes/modern/modern-light-theme';
+// @import '~ngx-sharebuttons/themes/circles/circles-dark-theme';
+
+// @use 'ngx-sharebuttons/themes/material/material-dark-theme';
+// @use 'ngx-sharebuttons/themes/modern/modern-light-theme';
+// @use 'ngx-sharebuttons/themes/circles/circles-dark-theme';
+
+
+
+
+// Responsive CSS
+@media (max-width: 376.98px) {
+
+  .profile-card .profile-card-text h3 {
+    font-size: 18px !important;
+}
+
+}
+@media (max-width: 368.98px) {
+
+  .qaae-details-page .customClass {
+    margin-top: 50px;
+  }
+
+  .qaae-details-page .customClass #pills-tab {
+    margin-top: 10px !important;
+  }
+
+  .tution-finance-page .pricing.container {
+    margin-top: 100px;
+  }
+
+  // To move affiliate page little down
+.affiliate-page .content-start.container {
+  margin-top: 100px;
+}
+
+}
+
+@media (max-width: 482.98px) {
+
+  .qaae-details-page .customClass {
+    margin-top: 50px;
+  }
+
+  .tution-finance-page .pricing.container {
+    margin-top: 150px;
+  }
+
+  // To move affiliate page little down
+  .affiliate-page .content-start.container {
+    margin-top: 100px;
+  }
+
+}
+
+@media (max-width: 522.98px) {
+  .profile-card .profile-card-text h3 {
+    font-size: 21px !important;
+  }
+
+  .event-profile-card .profile-card-text {
+    padding: 60px 20px 50px;
+}
+}
+
+@media (min-width: 523px) and  (max-width: 527.98px) {
+
+  .profile-card .profile-card-text h3 {
+    font-size: 19px !important;
+}
+
+}
+
+@media (max-width: 530.98px) {
+
+  .page-header img {
+    height: 500px !important;
+}
+
+  .page-header.qa-page-header img {
+    height: 550px !important;
+}
+
+.customClass {
+  margin-top: 100px;
+}
+
+// .qa-page-header .row.customClass {
+//   margin-top: 50px !important;
+// }
+
+.control-bar.container {
+  margin-top: 100px;
+}
+
+.about-us-page .control-bar.container {
+  margin-top: 150px;
+}
+
+.tution-finance-page .pricing.container {
+  margin-top: 150px;
+}
+
+// To move affiliate page little down
+.affiliate-page .content-start.container {
+  margin-top: 100px;
+}
+
+
+  figure.snip0057 .image {
+    width: 45%;
+}
+
+figure.snip0057 figcaption h2 {
+  font-size: 1.1em;
+}
+
+figure.snip0057 figcaption p {
+  padding-bottom: 20px;
+}
+
+.event-profile-card .profile-card-text {
+  padding: 60px 20px 50px;
+}
+
+.izn-footer .container {
+  padding-top: 25px;
+}
+
+}
+
+@media (min-width: 531px) and (max-width: 575.98px) {
+
+  .page-header img {
+    height: 500px !important;
+}
+
+.customClass {
+  margin-top: 100px;
+}
+
+.control-bar.container {
+  margin-top: 100px;
+}
+
+.about-us-page .control-bar.container {
+  margin-top: 150px;
+}
+
+.tution-finance-page .pricing.container {
+  margin-top: 200px;
+}
+
+// To move affiliate page little down
+.affiliate-page .content-start.container {
+  margin-top: 100px;
+}
+
+  figure.snip0057 .image {
+    width: 40%;
+}
+
+figure.snip0057 figcaption h2 {
+  font-size: 1.1em;
+}
+
+figure.snip0057 figcaption p {
+  padding-bottom: 20px;
+}
+
+.event-profile-card .profile-card-text {
+  padding: 60px 20px 50px;
+}
+
+.izn-footer .container {
+  padding-top: 25px;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .page-header img {
+    height: 500px !important;
+}
+
+.customClass {
+  margin-top: 100px;
+}
+
+.control-bar.container {
+  margin-top: 100px;
+}
+
+.about-us-page .control-bar.container {
+  margin-top: 150px;
+}
+
+.tution-finance-page .pricing.container {
+  margin-top: 200px;
+}
+
+  // To move affiliate page little down
+  .affiliate-page .content-start.container {
+    margin-top: 100px;
+  }
+
+figure.snip0057 .image {
+    width: 44%;
+}
+
+figure.snip0057 figcaption h2 {
+  font-size: 1.1em;
+}
+
+figure.snip0057 figcaption p {
+  padding-bottom: 20px;
+}
+
+.event-profile-card .profile-card-text {
+  padding: 60px 20px 50px;
+}
+
+.izn-footer .container {
+  padding-top: 25px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .page-header img {
+    height: 500px !important;
+}
+
+.customClass {
+  margin-top: 100px;
+}
+
+.control-bar.container {
+  margin-top: 150px;
+}
+
+.tution-finance-page .pricing.container {
+  margin-top: 200px;
+}
+
+// To move affiliate page little down
+.affiliate-page .content-start.container {
+  margin-top: 100px;
+}
+
+
+
+  .profile-card-text {
+    padding: 20px 20px;
+}
+
+  .profile-card .profile-card-text h3 {
+    color: #fff !important;
+    font-size: 20px !important;
+}
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .page-header img {
+    height: 500px !important;
+}
+
+.customClass {
+  margin-top: 130px;
+}
+
+.control-bar.container {
+  margin-top: 150px;
+}
+
+.tution-finance-page .pricing.container {
+  margin-top: 200px;
+}
+
+// To move affiliate page little down
+.affiliate-page .content-start.container {
+  margin-top: 150px;
+}
+
+  .profile-card-text {
+    padding: 20px 20px;
+}
+
+  .profile-card .profile-card-text h3 {
+    color: #fff !important;
+    font-size: 15px !important;
+    margin-bottom: -20px;
+}
+
+.profile-card .profile-card-text h6 {
+  padding-bottom: 0px;
+}
+
+
+}
+@media (min-width: 1200px) and (max-width: 1599.98px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1299.98px) {
+}
+
+@media (min-width: 1600px) {
+}

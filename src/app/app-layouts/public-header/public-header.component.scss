@@ -1,0 +1,156 @@
+/* =========================
+  CSS CONTRIBUTED BY BULBUL
+ =========================== */
+
+// Top navbar
+.container.topbar-container.d-none.d-xl-block.bg-dark {
+  background-color: transparent !important;
+}
+
+.container.topbar-container .d-flex.align-items-center.border-bottom.border-white-20.pt-2.pb-4 {
+  border-bottom: none !important;
+  padding-bottom: 0.5rem !important;
+}
+
+.container.topbar-container.d-none.d-xl-block.bg-dark {
+  border-bottom: 1px solid #fff !important;
+}
+
+/*
+.border-top {
+    border-top: 1px solid #e7e7ec !important;
+}
+*/
+
+.top-social-icons li a i {
+  padding: 10px;
+}
+.top-social-icons li a {
+  border-radius: 50%;
+  width: 36px;
+  padding: 10px;
+  border: 1px solid transparent;
+  transition: all .3s linear;
+}
+
+.top-social-icons li a:hover {
+  border: 1px solid #FDC25E;
+}
+
+// Header Logo
+header h6 {
+  margin-left: 0 !important;
+}
+
+// Menu css
+header ul.navbar-nav {
+  position: relative;
+}
+
+header ul.navbar-nav li.nav-item:before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 5px;
+  background-color: #FDC25E;
+  left: 18px;
+  bottom: 0;
+  transition: all .3s linear;
+}
+
+header ul.navbar-nav li.nav-item:first-child::before {
+  left: 25px;
+}
+
+header ul.navbar-nav li.nav-item:hover:before {
+  width: 75%;
+}
+
+
+
+.button-li {
+  padding: 0 10px 0 10px;
+}
+
+// Menu hover
+
+header ul.navbar-nav li.nav-item {
+  transition: all 0.5s ease;
+}
+
+header ul.navbar-nav li.nav-item ul {
+	visibility: hidden;
+  opacity: 0;
+  display: none;
+  margin-top: -10px;
+}
+
+header ul.navbar-nav li.nav-item:hover > ul,
+header ul.navbar-nav li.nav-item ul:hover {
+	visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+
+
+// Responsive CSS
+@media (max-width: 575.98px) {
+
+  header ul.navbar-nav li.nav-item ul {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  header ul.navbar-nav li.nav-item ul {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  header ul.navbar-nav li.nav-item ul {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  header .header-container {
+    background-color: #162445;
+    // border: 2px solid #ffc78b;
+  }
+
+
+
+  button.navbar-toggler.outline-0.text-primary svg {
+    color: #fff;
+}
+
+}
+@media (min-width: 1200px) and (max-width: 1599.98px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1299.98px) {
+}
+
+@media (min-width: 1600px) {
+}
+
+
+

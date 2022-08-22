@@ -1,0 +1,4 @@
+#!/bin/bash
+sed -i 's;DocumentRoot "/var/www/html";DocumentRoot "/var/www/html/izaanapp/browser";1' /etc/httpd/conf/httpd.conf
+systemctl start httpd.service
+systemctl enable httpd.service

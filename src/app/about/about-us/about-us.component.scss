@@ -1,0 +1,105 @@
+/* =========================
+  CSS CONTRIBUTED BY BULBUL
+=========================== */
+.page-header.position-relative.pt-8.pt-xl-11 {
+  margin-top: -190px;
+}
+
+.page-header.position-relative.pt-8.pt-xl-11 img {
+  height: 620px;
+}
+
+.page-header-cont.container {
+  padding-top: 154px;
+}
+
+.overlay-custom-left::before {
+  background: linear-gradient(0deg, rgb(23 43 119 / 82%), rgb(25 41 64 / 60%)), linear-gradient(157deg, #111a30 17.76%, rgba(255, 255, 255, 0) 200%);
+}
+
+.course-single-white {
+  padding-top: 49px;
+}
+
+// Icon blocks
+.icon-block .icon-block-inner {
+  border: 1px solid #F8C994 !important;
+}
+
+.icon-block .icon-block-inner .icon-block-icon {
+  background-color: #F5DEBC !important;
+  color: #EE8E00 !important;
+}
+
+.icon-block .icon-block-inner svg {
+  background-color: #F5DEBC !important;
+  color: #EE8E00 !important;
+}
+
+
+// Responsive CSS
+@media (max-width: 530.98px) {
+
+  figure.snip0057 .image {
+    width: 45%;
+}
+
+figure.snip0057 figcaption h2 {
+  font-size: 1.1em;
+}
+
+figure.snip0057 figcaption p {
+  padding-bottom: 20px;
+}
+
+}
+
+@media (min-width: 531px) and (max-width: 575.98px) {
+
+  figure.snip0057 .image {
+    width: 40%;
+}
+
+figure.snip0057 figcaption h2 {
+  font-size: 1.1em;
+}
+
+figure.snip0057 figcaption p {
+  padding-bottom: 20px;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+figure.snip0057 .image {
+    width: 44%;
+}
+
+figure.snip0057 figcaption h2 {
+  font-size: 1.1em;
+}
+
+figure.snip0057 figcaption p {
+  padding-bottom: 20px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+@media (min-width: 1200px) and (max-width: 1599.98px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1299.98px) {
+}
+
+@media (min-width: 1600px) {
+}
+

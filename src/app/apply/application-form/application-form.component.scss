@@ -1,0 +1,52 @@
+/* =========================
+  CSS CONTRIBUTED BY BULBUL
+=========================== */
+.page-header.position-relative.pt-8.pt-xl-11 {
+    margin-top: -190px;
+  }
+  
+  .page-header.position-relative.pt-8.pt-xl-11 img {
+    height: 620px;
+  }
+  
+  .page-header-cont.container {
+    padding-top: 154px;
+  }
+  
+  .overlay-custom-left::before {
+    background: linear-gradient(0deg, rgb(23 43 119 / 82%), rgb(25 41 64 / 60%)), linear-gradient(157deg, #111a30 17.76%, rgba(255, 255, 255, 0) 200%);
+  }
+  
+  .course-single-white {
+    padding-top: 49px;
+  }
+  
+  // Icon blocks
+  .icon-block .icon-block-inner {
+    border: 1px solid #F8C994 !important;
+  }
+  
+  .icon-block .icon-block-inner .icon-block-icon {
+    background-color: #F5DEBC !important;
+    color: #EE8E00 !important;
+  }
+  
+  .icon-block .icon-block-inner svg {
+    background-color: #F5DEBC !important;
+    color: #EE8E00 !important;
+  }
+  
+.ng-select.custom {
+    border:0px;
+    min-height: 0px;
+    border-radius: 0;
+}
+.ng-select.custom .ng-select-container  {            
+    min-height: 0px;
+    border-radius: 0;
+}
+
+
+.mat-radio-button ~ .mat-radio-button {
+    margin-left: 16px;
+  }

@@ -1,0 +1,109 @@
+/* =========================
+  CSS CONTRIBUTED BY BULBUL
+=========================== */
+.page-header.position-relative.pt-8.pt-xl-11 {
+  margin-top: -190px;
+}
+
+.page-header.position-relative.pt-8.pt-xl-11 img {
+  height: 620px;
+}
+
+.page-header-cont.container {
+  padding-top: 154px;
+}
+
+.overlay-custom-left::before {
+  background: linear-gradient(0deg, rgb(23 43 119 / 82%), rgb(25 41 64 / 60%)), linear-gradient(157deg, #111a30 17.76%, rgba(255, 255, 255, 0) 200%);
+}
+
+.course-single-white {
+  padding-top: 49px;
+}
+
+li.qaae-total-li,
+li.devops-total-li,
+li.dataanalyst-total-li {
+  padding-top: 295px !important;
+}
+
+// modal
+// #non-profit .modal-content {
+//   background-color: #1a265c;
+// }
+
+// #non-profit .modal-header h5 {
+//   color: #fff;
+// }
+
+#nonProfit .modal-header {
+  padding: 20px;
+}
+
+#nonProfit .modal-body {
+  padding: 20px;
+}
+
+#nonProfit .modal-footer {
+  padding: 20px;
+}
+
+#nonProfit .modal-footer button {
+  background-color: #1a265c;
+  color: #fff;
+}
+
+
+
+
+
+
+
+// Responsive CSS
+@media (max-width: 575.98px) {
+
+  li.qaae-total-li,
+  li.devops-total-li,
+  li.dataanalyst-total-li {
+    padding-top: 15px !important;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  li.qaae-total-li,
+  li.devops-total-li,
+  li.dataanalyst-total-li {
+    padding-top: 15px !important;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  li.qaae-total-li,
+  li.devops-total-li,
+  li.dataanalyst-total-li {
+    padding-top: 575px !important;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  li.qaae-total-li,
+  li.devops-total-li,
+  li.dataanalyst-total-li {
+    padding-top: 395px !important;
+  }
+
+}
+@media (min-width: 1200px) and (max-width: 1599.98px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1299.98px) {
+}
+
+@media (min-width: 1600px) {
+}

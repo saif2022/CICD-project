@@ -1,0 +1,201 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "izaanapp": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        },
+        "@schematics/angular:application": {
+          "strict": true
+        }
+      },
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/izaanapp/browser",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "src/izaan-favicon.png",
+              "src/assets",
+              "src/assets/adminpanel"
+            ],
+            "styles": [ 
+              "src/assets/fonts/fontawesome/fontawesome.css",
+              "src/assets/libs/fancyapps/fancybox/dist/jquery.fancybox.min.css",
+              "src/assets/libs/aos/dist/aos.css",
+              "src/assets/libs/choices.js/public/assets/styles/choices.min.css",
+              "src/assets/libs/flickity-fade/flickity-fade.css",
+              "src/assets/libs/flickity/dist/flickity.min.css",
+              "src/assets/libs/highlightjs/styles/vs2015.css",
+              "src/assets/libs/jarallax/dist/jarallax.css",
+              "src/assets/css/customtheme.css",
+              "src/styles.scss"
+            ],
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/libs/fancyapps/fancybox/dist/jquery.fancybox.min.js",
+              "src/assets/libs/choices.js/public/assets/scripts/choices.min.js",
+              "src/assets/libs/dropzone/dist/min/dropzone.min.js",
+              "src/assets/libs/flickity/dist/flickity.pkgd.min.js",
+              "src/assets/libs/flickity-fade/flickity-fade.js",
+              "src/assets/libs/imagesloaded/imagesloaded.pkgd.min.js",
+              "src/assets/libs/isotope-layout/dist/isotope.pkgd.min.js",
+              "src/assets/libs/jarallax/dist/jarallax.min.js",
+              "src/assets/libs/jarallax/dist/jarallax-video.min.js",
+              "src/assets/libs/jarallax/dist/jarallax-element.min.js",
+              "src/assets/libs/parallax-js/dist/parallax.min.js",
+              "src/assets/libs/quill/dist/quill.min.js",
+              "src/assets/libs/smooth-scroll/dist/smooth-scroll.min.js",
+              "src/assets/libs/typed.js/lib/typed.min.js",
+              "src/assets/js/theme.min.js"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "5mb",
+                  "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ],
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "browserTarget": "izaanapp:build:production",
+              "proxyConfig": "src/proxy.conf.json",
+              "port": 5000
+            },
+            "development": {
+              "browserTarget": "izaanapp:build:development",
+              "proxyConfig": "src/proxy.conf.json",
+              "port": 5000
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "izaanapp:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/test.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.spec.json",
+            "karmaConfig": "karma.conf.js",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "src/izaan-favicon.png",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.scss"
+            ],
+            "scripts": []
+          }
+        },
+        "server": {
+          "builder": "@angular-devkit/build-angular:server",
+          "options": {
+            "outputPath": "dist/izaanapp/server",
+            "main": "server.ts",
+            "tsConfig": "tsconfig.server.json",
+            "inlineStyleLanguage": "scss"
+          },
+          "configurations": {
+            "production": {
+              "outputHashing": "media",
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ]
+            },
+            "development": {
+              "optimization": false,
+              "sourceMap": true,
+              "extractLicenses": false
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve-ssr": {
+          "builder": "@nguniversal/builders:ssr-dev-server",
+          "configurations": {
+            "development": {
+              "browserTarget": "izaanapp:build:development",
+              "serverTarget": "izaanapp:server:development"
+            },
+            "production": {
+              "browserTarget": "izaanapp:build:production",
+              "serverTarget": "izaanapp:server:production"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "prerender": {
+          "builder": "@nguniversal/builders:prerender",
+          "options": {
+            "routes": [
+              "/"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "izaanapp:build:production",
+              "serverTarget": "izaanapp:server:production"
+            },
+            "development": {
+              "browserTarget": "izaanapp:build:development",
+              "serverTarget": "izaanapp:server:development"
+            }
+          },
+          "defaultConfiguration": "production"
+        }
+      }
+    }
+  },
+  "defaultProject": "izaanapp"
+}

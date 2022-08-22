@@ -1,0 +1,38 @@
+/* =========================
+  CSS CONTRIBUTED BY BULBUL
+=========================== */
+// Fix page header image, overlay
+.page-header.position-relative.pt-8.pt-xl-11 {
+  margin-top: -190px;
+}
+
+.page-header.position-relative.pt-8.pt-xl-11 img {
+  height: 620px;
+}
+
+.page-header-cont.container {
+  padding-top: 154px;
+}
+
+.overlay-custom-left::before {
+  background: linear-gradient(0deg, rgb(23 43 119 / 82%), rgb(25 41 64 / 60%)), linear-gradient(157deg, #111a30 17.76%, rgba(255, 255, 255, 0) 200%);
+}
+
+// For only this page
+.course-single-white {
+  padding-top: 49px;
+}
+
+section.featured-product-sec.pt-5.pb-9.py-md-11.bg-white {
+  padding-top: 0 !important;
+}
+
+
+// Responsive CSS
+@media (max-width: 575.98px) {
+
+  .page-header.position-relative.pt-8.pt-xl-11 img {
+    height: 500px;
+  }
+
+}

@@ -1,0 +1,168 @@
+/* =========================
+  CSS CONTRIBUTED BY BULBUL
+ =========================== */
+
+// Banner part
+.hero-div {
+  background-color: #162445;
+}
+
+.banner-container {
+  padding: 6rem 0 6rem;
+}
+
+.banner-image img {
+  width: 70%;
+  float: right
+}
+
+// Icon blocks
+.icon-block .icon-block-inner {
+  border: 1px solid #F8C994;
+}
+
+.icon-block .icon-block-inner .icon-block-icon {
+  background-color: #F5DEBC;
+  color: #EE8E00;
+}
+
+.icon-block .icon-block-inner svg {
+  background-color: #F5DEBC;
+  color: #EE8E00;
+}
+
+// Blog sections
+section.blogs a.badge-purple, section.blogs a.badge-purple:focus, section.blogs a.badge-purple:hover {
+  color: #000;
+  background-color: #FDC25E;
+}
+
+section.blogs a.badge-purple:focus, section.blogs a.badge-purple:hover {
+  color: color-yiq(#000);
+  background-color: #ffa407;
+}
+
+// Reviews
+section.testimonial {
+  padding-bottom: 8rem !important;
+}
+
+// Events
+section.events {
+  padding: 7rem 0 7rem !important;
+  background-image: url('/assets/img/matrix-bg.svg');
+  background-size:cover;
+  width:auto;
+  background-position:50% 50%;
+  position: relative;
+}
+
+section.events::after {
+  background-color: #000;
+  opacity: .2;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;;
+  height: 100%;
+}
+
+section.events .events-title,
+section.events .events-description {
+  color: #fff
+}
+
+// Blogs
+// Events
+section.blogs {
+  padding: 7rem 0 7rem !important;
+}
+
+
+// Responsive CSS
+@media (max-width: 575.98px) {
+
+  .banner-image.col-12.col-md-5.col-lg-6.order-md-2.aos-init.aos-animate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -148px;
+  }
+
+  .container.banner-container {
+    margin-bottom: -260px;
+  }
+
+  .banner-text-div.col-12.col-md-7.col-lg-6.order-md-1 {
+    padding: 0 30px;
+  }
+
+
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  .banner-image.col-12.col-md-5.col-lg-6.order-md-2.aos-init.aos-animate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -148px;
+  }
+
+  .banner-container-row.row.align-items-center {
+    margin-bottom: -160px;
+  }
+
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .banner-image.col-12.col-md-5.col-lg-6.order-md-2.aos-init.aos-animate {
+    margin-right: 0;
+  }
+
+  .container.banner-container {
+    margin-top: -110px;
+  }
+
+  .banner-image.col-12.col-md-5.col-lg-6.order-md-2.aos-init.aos-animate img {
+    width: 100%;
+  }
+
+  .banner-container-row.row.align-items-center {
+    margin-bottom: -160px;
+  }
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #77838f !important;
+  }
+
+  header .container {
+      margin-bottom: 125px !important;
+  }
+
+  .banner-container-row.row.align-items-center {
+    margin-bottom: -160px;
+  }
+
+}
+@media (min-width: 1200px) and (max-width: 1599.98px) {
+}
+
+@media (min-width: 1200px) and (max-width: 1299.98px) {
+}
+
+@media (min-width: 1600px) {
+}
